@@ -1,0 +1,99 @@
+.head{
+    font-size: large;
+    color: whitesmoke;
+    font-style: initial;
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: auto;
+    padding-top: 6rem;
+   };.uiform{
+    text-align: center;
+    color: aliceblue;
+   }
+   .field{
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+   }
+   .button{
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: baseline;
+    background: #e0e1e2 none;
+    color: rgba(0,0,0,.6);
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    margin: 0 .25em 0 0;
+    padding: .78571429em 1.5em .78571429em;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 700;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .28571429rem;
+    -webkit-box-shadow: 0 0 0 1px transparent inset, 0 0 0 0
+   rgb(34 36 38 / 15%) inset;
+    box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgb(34 36
+   38 / 15%) inset;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    -webkit-transition: opacity .1s ease,background-color .1s
+   ease,color .1s ease,background .1s ease,-webkit-box-shadow .1s
+   ease;
+    transition: opacity .1s ease,background-color .1s
+   ease,color .1s ease,background .1s ease,-webkit-box-shadow .1s
+   ease;
+    transition: opacity .1s ease,background-color .1s
+   ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+    transition: opacity .1s ease,background-color .1s
+   ease,color .1s ease,box-shadow .1s ease,background .1s ease,-
+   webkit-box-shadow .1s ease;
+    will-change: '';
+    -webkit-tap-highlight-color: transparent;
+   }
+   .box{
+    margin-left: 18rem;
+    margin-right: 18rem;
+    margin-bottom: 18rem;
+    margin-top: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 8rem;
+    padding-top: 4rem;
+    
+    backdrop-filter: blur(10px);
+    /* margin-inline-start: 10rem;
+    margin-inline-end: 10rem; */
+    
+    }
+    
+   body{
+    background-image: url("images/nick.jpg");
+    background-position: contain;
+    background-size: cover;
+   };
+   .input-text{
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    margin: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    -webkit-text-fill-color: rgba(255,255,255,0);
+    line-height: 1.21428571em;
+    padding: .67857143em 1em;
+    font-size: 1em;
+    background: #fff;
+    border:1px solid rgba(34,36,38,.15);
+    color:rgba(0,0,0,.87);
+    border-radius: .28571429rem;
+    -webkit-box-shadow: 0 0 0 0 transparent inset;
+    box-shadow: 0 0 0 0 transparent inset;
+    -webkit-transition: color .1s ease,border-color .1s ease;
+    transition:color.1s ease,border-color .1s ease;
+   }
